@@ -1,0 +1,47 @@
+.navbar {
+    z-index: 1;
+}
+html,
+body,
+.view {
+  height: 100%;
+}
+.white-text{
+    margin-top: 75px;
+}
+#gallery{
+    margin: 25px 0;
+}
+.details{
+    margin: 25px 0;
+    border-top: 1px solid silver;
+}
+.details .mb-5{
+    margin-top: 25px;
+}
+.details .row:nth-child(odd){
+    margin-bottom: 25px;
+} 
+.details .row:nth-child(even){
+    margin-bottom: 25px;
+}
+.details h3{
+margin-top: 0;
+}
+.details .decrease{
+color:lightgray;
+}
+.details .w3-xxlarge{
+    color: #20c997;
+}
+.card{
+    margin-bottom: 25px;
+}
+<<<<<<< HEAD
+=======
+.status{
+    background: #9B1B30;
+    color: white;
+    padding: 1em;
+}
+>>>>>>> 3a85d9668aa36115aba030532979e79932d0e12b
