@@ -26,9 +26,13 @@ print json_encode(array('message' => 'Message cannot be empty', 'code' => 0));
 exit();
 }
 $content="From: $name \nEmail: $email \nMessage: $message";
-$recipient = "ronewamavhungu@gmail.com";
+$recipient = "ronewagilbert3@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
-print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
+//print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
+echo <<<_END
+    <button class="btn btn-info" aria-label="true" data-toggle="">Email successfully sent!</button>
+_END;
+
 exit();
 ?>
