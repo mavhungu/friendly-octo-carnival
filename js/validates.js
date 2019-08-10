@@ -32,12 +32,12 @@ function validateForm () {
     document.getElementById('status').innerHTML = "Sending...";
     document.getElementById('contact-form').submit();
 
-    /*formData = {*/
-       /* 'name'     : $('input[name=name]').val(),
+    var formData = {
+        'name'     : $('input[name=name]').val(),
         'email'    : $('input[name=email]').val(),
         'subject'  : $('input[name=subject]').val(),
         'message'  : $('textarea[name=message]').val()
-    };*/
+    };
 
     $.ajax({
         url : "mail.php",
