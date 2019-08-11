@@ -1,6 +1,11 @@
 header,.view{
     height: 15%;
 }
+#rra-icon{
+    width: 35px;
+    height: 100%;
+    margin-right: 15px;
+}
 .card{
     width: 100%;
 }
