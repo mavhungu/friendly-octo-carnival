@@ -17,11 +17,11 @@ header,.view{
     margin-right: 15px;
     width: 50%;
 }
-.mb-4 .card1 h3 {
+.mb-4 .card1 h3{
     font-weight: bold;
     font-size: 18px;
-    margin-left: 28%;
-    margin-top: 15px;
+    text-align: center;
+    margin-top: 25px;
 }
 .mb-4 .card1 p{
     text-align: center;
