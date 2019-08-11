@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2109cde7-9422-44de-98f4-878dbd14f3b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
-    </list>
+    <list default="true" id="2109cde7-9422-44de-98f4-878dbd14f3b8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +12,7 @@
     <session id="-624435050">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -23,7 +22,7 @@
           <entry key="html" value="4" />
           <entry key="js" value="4" />
           <entry key="php" value="84" />
-          <entry key="txt" value="301" />
+          <entry key="txt" value="315" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -31,7 +30,7 @@
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="4" />
           <entry key="PHP" value="84" />
-          <entry key="PLAIN_TEXT" value="301" />
+          <entry key="PLAIN_TEXT" value="315" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,8 +66,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="git pull" />
-      <command text="git status" />
       <command text="git add ." />
       <command text="git commit -m &quot;Adding new files&quot;" />
       <command text="git push" />
@@ -90,6 +87,9 @@
       <command text="git push" />
       <command text="git add ." />
       <command text="git commit -m &quot;fixing validate&quot;" />
+      <command text="git push" />
+      <command text="git add ." />
+      <command text="git commit -m &quot;fixing mail fiel&quot;" />
       <command text="git push" />
     </commandsHistory>
   </component>
@@ -135,11 +135,6 @@
               <item name="friendly-octo-carnival" type="b2602c69:ProjectViewProjectNode" />
               <item name="friendly-octo-carnival" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="friendly-octo-carnival" type="b2602c69:ProjectViewProjectNode" />
-              <item name="friendly-octo-carnival" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -174,24 +169,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565470019713</updated>
-      <workItem from="1565470038303" duration="4103000" />
+      <workItem from="1565470038303" duration="4379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4103000" />
+    <option name="totallyTimeSpent" value="4379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1374" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24961948" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24961948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Command Line Tools Console" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Command Line Tools Console" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
