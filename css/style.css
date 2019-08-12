@@ -13,23 +13,22 @@ body,
     margin: 25px 0;
 }
 .details{
-    margin: 25px 0;
     border-top: 1px solid silver;
+    /*background-image: url("../img/wallpaper/164621.jpg");*/
 }
-.details .mb-5{
-    margin-top: 25px;
+.details h2{
+    padding: 35px;
+    /*color:ghostwhite;*/
 }
+
 .details .row:nth-child(odd){
-    margin-bottom: 25px;
+    padding-bottom: 35px;
 } 
 .details .row:nth-child(even){
-    margin-bottom: 25px;
+    padding-bottom: 35px;
 }
 .details h3{
 margin-top: 0;
-}
-.details .decrease{
-color:lightgray;
 }
 .details .w3-xxlarge{
     color: #20c997;
@@ -42,4 +41,5 @@ color:lightgray;
     color: white;
     padding: 1em;
 }
+
 
