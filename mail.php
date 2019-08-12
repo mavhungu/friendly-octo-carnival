@@ -31,7 +31,7 @@ $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 //print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
 echo <<<_END
-    <button class="btn btn-info" aria-label="true" data-toggle="">Email successfully sent!</button>
+    <a type="button" class="btn btn-info" aria-label="true" data-toggle="" href="index.html">Email successfully sent!</a>
 _END;
 
 exit();
