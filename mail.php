@@ -29,10 +29,10 @@ $content="From: $name \nEmail: $email \nMessage: $message";
 $recipient = "ronewagilbert3@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
-//print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
-echo <<<_END
-    <a type="button" class="btn btn-info" aria-label="true" data-toggle="" href="index.html">Email successfully sent!</a>
-_END;
+print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
+//echo <<<_END
+  //  <button class="btn btn-info" href="index.html">Email successfully sent!</button>
+//_END;
 
 exit();
 ?>

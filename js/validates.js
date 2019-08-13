@@ -1,4 +1,5 @@
 $(".status").hide();
+
 function validateForm () {
     "use strict";
     $(".status").show();
@@ -30,9 +31,10 @@ function validateForm () {
         return false;
     }
     document.getElementById('status').innerHTML = "Sending...";
+    
     document.getElementById('contact-form').submit();
 
-    var formData = {
+     formData = {
         'name'     : $('input[name=name]').val(),
         'email'    : $('input[name=email]').val(),
         'subject'  : $('input[name=subject]').val(),
