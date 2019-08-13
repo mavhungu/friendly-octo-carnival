@@ -11,15 +11,12 @@ body,
 }
 #gallery{
     margin: 25px 0;
-    background-image: url("../img/wallpaper/164663.jpg");
 }
 .details{
     border-top: 1px solid silver;
-    /*background-image: url("../img/wallpaper/164621.jpg");*/
 }
 .details h2{
     padding: 35px;
-    /*color:ghostwhite;*/
 }
 
 .details .row:nth-child(odd){

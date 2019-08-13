@@ -10,6 +10,7 @@
         background-repeat:  no-repeat;
         background-position: center;
         background-size: cover;
+        margin-bottom: 0px;
     }
     
     .text-center #res{
@@ -27,10 +28,11 @@
         margin-left: 14%;
     }
     .view {
-        background: url("../img/wallpaper/164651.jpg");
+        background: url("../img/wallpaper/164663.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        margin-bottom: 0px;
     }
     .text-center #res{
             margin-top: 10%;
