@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2109cde7-9422-44de-98f4-878dbd14f3b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
-    </list>
+    <list default="true" id="2109cde7-9422-44de-98f4-878dbd14f3b8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +15,8 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -27,7 +24,7 @@
           <entry key="html" value="4" />
           <entry key="js" value="4" />
           <entry key="php" value="84" />
-          <entry key="txt" value="396" />
+          <entry key="txt" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -35,14 +32,14 @@
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="4" />
           <entry key="PHP" value="84" />
-          <entry key="PLAIN_TEXT" value="396" />
+          <entry key="PLAIN_TEXT" value="405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
           <entry key="html" value="4" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
           <entry key="php" value="1" />
         </counts>
       </usages-collector>
@@ -50,7 +47,7 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="PHP" value="1" />
         </counts>
       </usages-collector>
@@ -58,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="552">
               <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/validates.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,7 +77,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="git checkout master" />
       <command text="git status" />
       <command text="git pull" />
       <command text="git add ." />
@@ -96,6 +101,7 @@
       <command text="git commit -m &quot;adding fav icons&quot;" />
       <command text="git push" />
       <command text="git checkout test" />
+      <command text="git pull" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -122,7 +128,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="1374" />
     <option name="height" value="735" />
@@ -139,6 +145,11 @@
             <path>
               <item name="friendly-octo-carnival" type="b2602c69:ProjectViewProjectNode" />
               <item name="friendly-octo-carnival" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="friendly-octo-carnival" type="b2602c69:ProjectViewProjectNode" />
+              <item name="friendly-octo-carnival" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,16 +187,18 @@
       <updated>1565470019713</updated>
       <workItem from="1565470038303" duration="4379000" />
       <workItem from="1565513688370" duration="1279000" />
+      <workItem from="1565716238928" duration="2378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5658000" />
+    <option name="totallyTimeSpent" value="8036000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1374" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1374" height="735" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25342464" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25722983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,7 +211,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="10" visible="true" weight="0.4825291" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" visible="true" weight="0.26788685" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -250,17 +263,17 @@
         <state relative-caret-position="-3570" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/validates.js">
+    <entry file="file://$PROJECT_DIR$/mail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="552">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
+    <entry file="file://$PROJECT_DIR$/js/validates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        <state relative-caret-position="130">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
