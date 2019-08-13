@@ -11,6 +11,7 @@ body,
 }
 #gallery{
     margin: 25px 0;
+    background-image: url("../img/wallpaper/164663.jpg");
 }
 .details{
     border-top: 1px solid silver;
