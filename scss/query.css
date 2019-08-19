@@ -67,18 +67,20 @@
         font-family: sans-serif, monospace;
     }
     #about_us .container h5 marks{
-        font-size: 45px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 800px;
         line-height: 34px;
         color: aquamarine;
+        font-weight: bold;
         
     }
     #about_us .container h5 span{
         color: white;
-        font-size: 35px;
+        font-size: 28px;
         line-height: 34px;
         text-align: center;
+        font-weight: bold;
     }
     
 }
@@ -86,10 +88,39 @@
 @media only screen  and (min-width : 1824px) {
     /* Styles */
     .view {
-        background: url("../img/wallpaper/164618.jpg");
+        background: url("../img/wallpaper/164624.jpg");
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+    }
+    .intro-2 .subtext-header {
+        font-size: 2.7rem;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+        #about_us{
+        background-image: url(../img/wallpaper/164624.jpg);
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800px;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
     }
 
 }
