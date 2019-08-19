@@ -9,9 +9,19 @@ body,
 .white-text .display-3 {
     margin-top: 15px;
 }
-.white-text .contact_btn:hover{
-    background: orange;
+.white-text a{
+    margin-top: 25px;
+    background: #1e2d40;
     color: ghostwhite;
+    font-weight: bold;
+    
+}
+.white-text a:hover{
+    background: #3cbb92;
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 16px;
+    
 }
 #gallery{
     margin: 25px 0;
