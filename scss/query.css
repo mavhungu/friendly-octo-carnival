@@ -43,7 +43,8 @@
 @media only screen  and (min-width : 768px) {
     /* working on the Desktop display*/
     .white-text .display-3{
-        font-size: 32px;
+        font-size: 3rem;
+        font-weight: bold;
     }
     .hr-light{
         margin-left: 14%;
@@ -58,7 +59,13 @@
     }
     .text-center #res{
             margin-top: 10%;
-        }
+    }
+    
+    .intro-2 .subtext-header {
+        font-size: 2.7rem;
+        font-style: normal;
+        font-weight: bold;
+    }
     
     #about_us{
         background-image: url(../img/wallpaper/164622.jpg);
@@ -86,6 +93,11 @@
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
     /* Styles */
+    
+    .white-text .display-3{
+        font-size: 3rem;
+        font-weight: bold;
+    }
     .view {
         background: url("../img/wallpaper/164624.jpg");
         background-attachment: fixed;
