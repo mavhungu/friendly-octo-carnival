@@ -17,7 +17,8 @@
     
     .text-center #res{
             margin-top: 25%;
-        }
+        background-color: red;
+    }
     #about_us{
         background-image: url(../img/wallpaper/164624.jpg);
         background-attachment: fixed;
@@ -94,10 +95,10 @@
 @media only screen  and (min-width : 1824px) {
     /* Styles */
     
-    .white-text .display-3{
+    /*.white-text .display-3{
         font-size: 3rem;
         font-weight: bold;
-    }
+    }*/
     .view {
         background: url("../img/wallpaper/164624.jpg");
         background-attachment: fixed;
