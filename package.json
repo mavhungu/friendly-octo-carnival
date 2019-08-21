@@ -1,0 +1,23 @@
+{
+  "name": "fri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavhungu/friendly-octo-carnival.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mavhungu/friendly-octo-carnival/issues"
+  },
+  "homepage": "https://github.com/mavhungu/friendly-octo-carnival#readme"
+}
