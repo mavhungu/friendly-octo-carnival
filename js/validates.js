@@ -32,7 +32,7 @@ function validateForm () {
     }
     document.getElementById('status').innerHTML = "Sending...";
     
-    //document.getElementById('contact-form').submit();
+    document.getElementById('contact-form').submit();
 
      formData = {
         'name'     : $('input[name=name]').val(),
