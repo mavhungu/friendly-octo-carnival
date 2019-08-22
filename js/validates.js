@@ -4,7 +4,7 @@ function validateForm () {
     "use strict";
     $(".status").show();
 
-   /* var name =  document.getElementById('name').value;
+    var name =  document.getElementById('name').value;
     if (name === "") {
         document.getElementById('status').innerHTML = "Name cannot be empty";
         return false;
@@ -29,7 +29,7 @@ function validateForm () {
     if (message === "") {
         document.getElementById('status').innerHTML = "Message cannot be empty";
         return false;
-    //}*/
+    }
     document.getElementById('status').innerHTML = "Sending...";
     
     //document.getElementById('contact-form').submit();
