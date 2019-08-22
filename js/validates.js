@@ -2,6 +2,7 @@ $(".status").hide();
 
 function validateForm () {
     "use strict";
+    
     $(".status").show();
 
     var name =  document.getElementById('name').value;
@@ -30,9 +31,6 @@ function validateForm () {
         document.getElementById('status').innerHTML = "Message cannot be empty";
         return false;
     }
-    document.getElementById('status').innerHTML = "Sending...";
-    
-    document.getElementById('contact-form').submit();
 
      formData = {
         'name'     : $('input[name=name]').val(),
@@ -57,6 +55,11 @@ function validateForm () {
             $('#status').text(jqXHR);
         }
     });
+    
+    
+        document.getElementById('status').innerHTML = "Sending...";
+    
+    document.getElementById('contact-form').submit();
 
 }
 
