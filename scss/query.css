@@ -23,6 +23,7 @@
     #about_us{
         background-image: url(../img/wallpaper/164624.jpg);
         background-attachment: fixed;
+        
         padding: 75px;
         font-family: sans-serif, monospace;
     }
@@ -52,8 +53,9 @@
         margin-left: 14%;
     }
     .view {
-        background: url("../img/wallpaper/164624.jpg");
+        background-image: url("../img/wallpaper/164624.jpg");
         background-attachment: fixed;
+        background: flex;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
