@@ -1,5 +1,4 @@
-	
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media (min-device-width : 320px) and (max-device-width : 480px) {
     .white-text .display-3{
         font-size: 32px;
     }
@@ -10,7 +9,7 @@
         background-image: url("../img/20190424_101252.jpg");
         background-attachment: fixed;
         background-repeat:  no-repeat;
-        background-position: center;
+        background-position: 50% 50%;
         background-size: cover;
         display: flex;
         margin-bottom: 0px;
@@ -23,6 +22,7 @@
     #about_us{
         background-image: url(../img/wallpaper/164624.jpg);
         background-attachment: fixed;
+        background-position: 50% 50%;
         
         padding: 75px;
         font-family: sans-serif, monospace;
@@ -42,6 +42,147 @@
     
 }
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .white-text .display-3{
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    .hr-light{
+        margin: 9%;
+        
+    }
+  
+       .view {
+        background-image: url("../img/wallpaper/164624.jpg");
+        background-attachment: fixed;
+        background: flex;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    #about_us{
+        background-image: url(../img/wallpaper/164622.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+      .view {
+        background-image: url("../img/wallpaper/164624.jpg");
+        background-attachment: fixed;
+        background: flex;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    #about_us{
+        background-image: url(../img/wallpaper/164622.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+      .view {
+        background-image: url("../img/wallpaper/164624.jpg");
+        background-attachment: fixed;
+        background: flex;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    #about_us{
+        background-image: url(../img/wallpaper/164622.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        padding: 75px;
+        font-family: sans-serif, monospace;
+    }
+    #about_us .container h5 marks{
+        font-size: 28px;
+        font-style: normal;
+        line-height: 34px;
+        color: aquamarine;
+        font-weight: bold;
+        
+    }
+    #about_us .container h5 span{
+        color: white;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        font-weight: bold;
+    }
+  
+}
+
+
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 768px) {
     /* working on the Desktop display*/
@@ -57,7 +198,7 @@
         background-attachment: fixed;
         background: flex;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 50% 50%;
         background-size: cover;
         display: flex;
         margin-bottom: 0px;
@@ -76,7 +217,7 @@
         background-image: url(../img/wallpaper/164622.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 50% 50%;
         background-attachment: fixed;
         padding: 75px;
         font-family: sans-serif, monospace;
@@ -110,7 +251,7 @@
         background: url("../img/wallpaper/164624.jpg");
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 50% 50%;
         background-size: cover;
     }
     #intro-2 .subtext-header {
@@ -122,6 +263,7 @@
     #about_us{
         background-image: url(../img/wallpaper/164622.jpg);
         background-attachment: fixed;
+        background-position: 50% 50%;
         padding: 75px;
         font-family: sans-serif, monospace;
     }
