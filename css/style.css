@@ -11,17 +11,12 @@ body,
 }
 .white-text a{
     
-    margin-top: 25px;
-    
+    margin: 25px;
     color: ghostwhite;
     font-weight: bold;
     border-radius: 18px;
     
 }
-.white-text a .fa{
-    margin-right: 6px;
-}
-
 .white-text a:hover{
     
     background: #3cbb92;
