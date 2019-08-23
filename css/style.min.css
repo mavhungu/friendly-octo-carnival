@@ -29,10 +29,12 @@ header,.view{
     font-size: 18px;
     text-align: center;
     margin-top: 25px;
+    font-family: museo-sans, sans-serif;
 }
 .mb-4 .card1 p{
     text-align: center;
-    font-family: monospace, sans-serif;
+    /*font-family: monospace, sans-serif;*/
+    font-family: museo-sans, sans-serif;
 }
 #my_team{
     margin-bottom: 45px;
